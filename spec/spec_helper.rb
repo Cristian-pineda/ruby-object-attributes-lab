@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 require_relative "../lib/tic_tac_toe.rb"
+=======
+require_relative '../lib/dog'
+require_relative '../lib/person'
+>>>>>>> 44307138acdab043e9ac96041a68a6f7ef76b0cb
 
 RSpec.configure do |config|
   config.order = :default
 end
+<<<<<<< HEAD
 
 RSpec::Matchers.define :include_array do |expected|
   match do |actual|
@@ -35,3 +41,5 @@ def capture_puts
     $stdout = old_stdout
   end
 end
+=======
+>>>>>>> 44307138acdab043e9ac96041a68a6f7ef76b0cb
